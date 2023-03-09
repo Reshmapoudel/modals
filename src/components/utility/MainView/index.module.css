@@ -1,0 +1,15 @@
+.JobSitewrapper {
+  @apply p-4 bg-white w-full h-full flex flex-col mx-auto;
+}
+.JobSitewrapper .wrapperHeader {
+  @apply block items-center justify-between w-full mb-2;
+}
+.JobSitewrapper .wrapperHeader .title {
+  @apply font-normal text-2xl text-black;
+}
+.JobSitewrapper .wrapperHeader .search {
+  @apply flex items-center justify-between rounded-3xl border py-2 px-4  bg-white;
+}
+.JobSitewrapper .card {
+  @apply w-full grid grid-cols-4 gap-6 items-center mt-4;
+}

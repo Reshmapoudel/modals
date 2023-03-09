@@ -1,0 +1,27 @@
+.bread-crumb-container {
+  @apply flex flex-wrap items-center pt-4 pb-0 pl-2 mb-2 -mx-2;
+}
+
+.bread-crumb-container .title {
+  @apply mb-3 text-xl font-normal;
+}
+
+.bread-crumb-container .nav {
+  @apply ml-auto text-xs text-right;
+}
+
+.bread-crumb-container .nav .list {
+  @apply flex pl-4 rounded;
+}
+
+.bread-crumb-container .nav .list li {
+  @apply mx-1;
+}
+
+.bread-crumb-container .nav .list li p {
+  @apply capitalize;
+}
+
+.bread-crumb-container .nav .list li a {
+  @apply no-underline capitalize;
+}

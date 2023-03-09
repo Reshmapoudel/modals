@@ -1,0 +1,17 @@
+.JobSitewrapper {
+  @apply py-0 w-full h-full flex flex-col mx-auto;
+}
+
+.JobSitewrapper .greenbtn {
+  @apply px-8 py-2 text-white text-sm font-medium rounded-3xl text-center  bg-rt-jobsiteBtn border-gray-200 border;
+}
+.JobSitewrapper .whitebtn {
+  @apply px-8 py-2 text-black text-sm font-medium  text-center  bg-white border-gray-200 border;
+}
+.JobSitewrapper .search {
+  @apply flex items-center justify-between rounded-3xl border py-2 px-4  bg-white;
+}
+.visitorWrapper {
+  min-height: 300px;
+  @apply bg-white;
+}

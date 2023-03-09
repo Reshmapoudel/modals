@@ -1,0 +1,70 @@
+.selectable_input_container {
+  @apply relative z-10 flex flex-col w-full bg-white border border-gray-200 border-solid shadow-md -top-1;
+}
+
+.input_container {
+  @apply relative flex flex-row w-full border-b;
+}
+.chip_input_container {
+  @apply relative flex flex-row;
+}
+.input_container_prefix_icon {
+  @apply absolute flex-grow-0 cursor-pointer left-2 top-2;
+}
+.input_container_sufix_icon {
+  @apply absolute flex-grow-0 cursor-pointer right-2 top-2;
+}
+.input_box {
+  @apply w-full px-10 py-2;
+}
+.chip_input_box {
+  @apply flex-grow p-1 active:border-none focus-within:border-none focus-visible:border-none focus:border-none focus:outline-none focus-visible:outline-none;
+}
+.selctable_item {
+  @apply py-2 text-sm truncate cursor-pointer text-ellipsis;
+}
+.selected {
+  @apply font-medium text-white border-b border-gray-600 border-opacity-5 bg-rt-base;
+}
+.selectable_dropdown {
+  @apply overflow-y-scroll;
+  max-height: 13rem;
+}
+.element_chip {
+  @apply flex items-center justify-center flex-grow-0 flex-shrink-0 py-1 pl-4 pr-2 text-xs text-white rounded-full cursor-pointer bg-rt-base;
+  max-width: max(90%);
+}
+
+.elementChipContainer {
+  @apply flex gap-1 py-2 overflow-x-auto;
+}
+.element_chip_text {
+  @apply inline-block overflow-hidden text-sm font-medium text-ellipsis flex-shrink-0;
+}
+.close_item {
+  @apply inline-flex text-xs;
+}
+
+.selectable_show_box {
+  @apply flex items-center w-full pl-2 border border-gray-200 border-solid rounded-md;
+  min-height: 2.5rem;
+}
+
+.selectable_show_arrow {
+  @apply flex items-center justify-center flex-grow-0 h-full px-2 border-l-2 border-gray-200;
+}
+
+.group_item {
+  @apply relative flex px-4 py-2 text-sm truncate bg-gray-200 cursor-pointer text-ellipsis;
+}
+.group_item_group_label_name {
+  @apply w-full font-semibold;
+}
+
+.selectable_show_section_disabled {
+  @apply text-gray-500 bg-gray-200 rounded-md cursor-not-allowed;
+}
+
+.chip_input_main {
+  @apply border-rt-lightgray border-solid rounded-md border p-2;
+}

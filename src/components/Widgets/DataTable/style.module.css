@@ -1,0 +1,67 @@
+.table-head {
+  @apply bg-blue-50;
+}
+
+.table-head tr .row {
+  @apply p-4 text-sm font-medium tracking-wider text-left text-gray-500 uppercase;
+}
+
+.pagination-container {
+  @apply flex flex-wrap items-center justify-between px-4 bg-white border-t border-gray-200 py-7 sm:px-6;
+}
+
+.pagination-container .full-pagination {
+  @apply sm:flex-1 sm:flex sm:items-center sm:justify-between;
+}
+
+.pagination-container .full-pagination .left > nav {
+  @apply relative z-0 inline-flex -space-x-px rounded-md shadow-sm;
+}
+
+.pagination-container .full-pagination .left > nav > span {
+  @apply relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300;
+}
+
+.pagination-container .full-pagination .left > nav > .button {
+  @apply relative inline-flex items-center px-3 py-2 text-sm font-medium border border-gray-300 text-black;
+}
+
+.pagination-container .full-pagination .left > nav > .active {
+  @apply text-white border bg-rt-base;
+}
+
+.pagination-container .full-pagination .right {
+  @apply mb-2 md:mb-0;
+}
+
+.pagination-container .full-pagination .right p {
+  @apply text-sm text-gray-700;
+}
+
+.pagination-container .full-pagination .right p span {
+  @apply font-medium;
+}
+
+.toolbar-container {
+  @apply flex px-4 py-3 bg-rt-dark;
+}
+
+.toolbar-container .right {
+  @apply flex mr-auto;
+}
+
+.toolbar-container .right h1 {
+  @apply mr-4 text-lg text-white;
+}
+
+.toolbar-container .right select {
+  @apply rounded-md;
+}
+
+.toolbar-container .left {
+  @apply ml-auto;
+}
+
+.toolbar-container .left input {
+  @apply pl-3 rounded-xl;
+}

@@ -1,0 +1,24 @@
+.chip_input_container {
+  @apply relative flex flex-row;
+}
+.chip_input_box {
+  @apply flex-grow p-1 active:border-none focus-within:border-none focus-visible:border-none focus:border-none focus:outline-none focus-visible:outline-none;
+}
+.element_chip {
+  @apply flex items-center justify-center flex-shrink flex-grow-0 py-1 pl-4 pr-2 text-xs text-white rounded-full cursor-pointer bg-rt-base;
+  max-width: max(90%);
+}
+
+.elementChipContainer {
+  @apply flex flex-wrap gap-1 py-2;
+}
+.element_chip_text {
+  @apply inline-block text-sm font-medium text-ellipsis overflow-hidden;
+}
+.close_item {
+  @apply inline-flex text-xs;
+}
+
+.chip_input_main {
+  @apply border-rt-lightgray border-solid rounded-md border p-1;
+}
